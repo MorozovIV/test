@@ -1,0 +1,31 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+[user1@MikroTik] > /e
+
+[user1@MikroTik] > /e                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+[user1@MikroTik] > /ex
+
+[user1@MikroTik] > /ex                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+[user1@MikroTik] > /exp
+
+[user1@MikroTik] > /exp                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+[user1@MikroTik] > /expo
+
+[user1@MikroTik] > /expo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+[user1@MikroTik] > /expor
+
+[user1@MikroTik] > /expor                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+[user1@MikroTik] > /export
+
+[user1@MikroTik] > /export                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+[user1@MikroTik] > /export
+[user1@MikroTik] > /export
+
+# dec/24/2021 12:36:10 by RouterOS 7.1.1
+# software id = 2H9V-FN2Y
+#
+# model = 951G-2HnD
+# serial number = 642E06C6F355
+/interface bridge
+add admin-mac=6C:3B:6B:2D:92:AE auto-mac=no comment=defconf name=bridge
+/interface wireless
+set [ find default-name=wlan1 ] band=2ghz-b/g/n channel-width=20/40mhz-XX disabled=no distance=indoors frequency=auto installation=indoor mode=ap-bridge ssid=MikroTik-2D92B2 wireless-protocol=802.11
